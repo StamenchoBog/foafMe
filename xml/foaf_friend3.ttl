@@ -1,0 +1,35 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/"
+      xml:base="url-na-vasiot-foaf.ttl-dokument#">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Andrej Sekuloski</foaf:name>
+<foaf:title>Mrs</foaf:title>
+<foaf:givenname>Andrej</foaf:givenname>
+<foaf:family_name>Sekuloski</foaf:family_name>
+<foaf:mbox_sha1sum>5e086177fe1a4e33f015889867a8d5eef87e5f18</foaf:mbox_sha1sum>
+<foaf:schoolHomepage rdf:resource="https://dbpedia.org/page/Ss._Cyril_and_Methodius_University_of_Skopje"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Stamencho Bogdanovski</foaf:name>
+<foaf:mbox_sha1sum>062e4dd3d764a66838c8fbc70b08a9f9c5f8b7a2</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="LINK_TO_PROFILE"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Stefanija Bogdanovska</foaf:name>
+<foaf:mbox_sha1sum>722e75999cd53e40cd00ecf2a8200616fbb41723</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="LINK_TO_PROFILE"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Angela Meshkova</foaf:name>
+<foaf:mbox_sha1sum>e4bfdd369dcab35016a9d5d2c926b942549918c2</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="LINK_TO_PROFILE"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
