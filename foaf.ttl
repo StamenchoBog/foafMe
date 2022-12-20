@@ -1,0 +1,32 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf.rdf> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf.rdf#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf.rdf#me> .
+
+<https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf.rdf#me> a foaf:Person ;
+    foaf:family_name "Bogdanovski" ;
+    foaf:givenname "Stamencho" ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_stefanija_bogdanovska.rdf#> ;
+            foaf:mbox_sha1sum "722e75999cd53e40cd00ecf2a8200616fbb41723" ;
+            foaf:name "Stefanija Bogdanovska" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_andrej_sekuloski.rdf#> ;
+            foaf:mbox_sha1sum "03850557b6ddd9d720da98c018476cbdba49a8f6" ;
+            foaf:name "Andrej Sekuloski" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_angela_meshkova.rdf#> ;
+            foaf:mbox_sha1sum "e4bfdd369dcab35016a9d5d2c926b942549918c2" ;
+            foaf:name "Angela Meshkova" ] ;
+    foaf:mbox_sha1sum "4ef7a427d290d7072f9d5d23b33cea3f72f467be" ;
+    foaf:name "Stamencho Bogdanovski" ;
+    foaf:nick "Stamen" ;
+    foaf:schoolHomepage <https://dbpedia.org/page/Ss._Cyril_and_Methodius_University_of_Skopje> ;
+    foaf:title "Mr" ;
+    foaf:workInfoHomepage <https://dbpedia.org/page/DevOps> ;
+    foaf:workplaceHomepage <https://www.intertec.io/> .
