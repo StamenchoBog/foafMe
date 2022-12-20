@@ -12,7 +12,7 @@
 </foaf:PersonalProfileDocument>
 <foaf:Person rdf:ID="me">
 <foaf:name>Stefanija Bogdanovska</foaf:name>
-<foaf:title>Mrs</foaf:title>
+<foaf:title>Miss</foaf:title>
 <foaf:givenname>Stefanija</foaf:givenname>
 <foaf:family_name>Bogdanovska</foaf:family_name>
 <foaf:mbox_sha1sum>599a2bd1942386a74f6ddf2ff5d918d3fc4e65e1</foaf:mbox_sha1sum>

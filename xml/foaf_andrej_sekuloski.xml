@@ -12,7 +12,7 @@
 </foaf:PersonalProfileDocument>
 <foaf:Person rdf:ID="me">
 <foaf:name>Andrej Sekuloski</foaf:name>
-<foaf:title>Mrs</foaf:title>
+<foaf:title>Mr</foaf:title>
 <foaf:givenname>Andrej</foaf:givenname>
 <foaf:family_name>Sekuloski</foaf:family_name>
 <foaf:mbox_sha1sum>5e086177fe1a4e33f015889867a8d5eef87e5f18</foaf:mbox_sha1sum>

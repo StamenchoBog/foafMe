@@ -12,7 +12,7 @@
 </foaf:PersonalProfileDocument>
 <foaf:Person rdf:ID="me">
 <foaf:name>Angela Meshkova</foaf:name>
-<foaf:title>Mrs</foaf:title>
+<foaf:title>Miss</foaf:title>
 <foaf:givenname>Angela</foaf:givenname>
 <foaf:family_name>Meshkova</foaf:family_name>
 <foaf:mbox_sha1sum>3b95edc2783ec36bbdd5a0b83ce4e1cca4215259</foaf:mbox_sha1sum>
