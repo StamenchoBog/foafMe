@@ -2,18 +2,18 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_angela_meshkova.rdf> a foaf:PersonalProfileDocument ;
+<https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_angela_meshkova.ttl> a foaf:PersonalProfileDocument ;
     admin:errorReportsTo <mailto:leigh@ldodds.com> ;
     admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
-    foaf:maker <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_angela_meshkova.rdf#me> ;
-    foaf:primaryTopic <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_angela_meshkova.rdf#me> .
+    foaf:maker <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_angela_meshkova.ttl#> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_angela_meshkova.ttl#me> .
 
-<https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_angela_meshkova.rdf#me> a foaf:Person ;
+<https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_angela_meshkova.ttl#me> a foaf:Person ;
     foaf:family_name "Meshkova" ;
     foaf:givenname "Angela" ;
     foaf:knows [ a foaf:Person ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf.rdf#>,
-                <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_andrej_sekuloski.rdf#> ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf.ttl#>,
+                <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_andrej_sekuloski.ttl#> ;
             foaf:mbox_sha1sum "03850557b6ddd9d720da98c018476cbdba49a8f6",
                 "062e4dd3d764a66838c8fbc70b08a9f9c5f8b7a2" ;
             foaf:name "Andrej Sekuloski",
@@ -24,5 +24,5 @@
             foaf:name "Stefanija Bogdanovska" ] ;
     foaf:mbox_sha1sum "3b95edc2783ec36bbdd5a0b83ce4e1cca4215259" ;
     foaf:name "Angela Meshkova" ;
-    foaf:schoolHomepage <https://dbpedia.org/page/Ss._Cyril_and_Methodius_University_of_Skopje> ;
+    foaf:schoolHomepage <https://dbpedia.org/data/Ss._Cyril_and_Methodius_University_of_Skopje.ttl> ;
     foaf:title "Miss" .

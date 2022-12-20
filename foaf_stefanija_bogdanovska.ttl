@@ -2,28 +2,28 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_stefanija_bogdanovska.rdf> a foaf:PersonalProfileDocument ;
+<https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_stefanija_bogdanovska.ttl> a foaf:PersonalProfileDocument ;
     admin:errorReportsTo <mailto:leigh@ldodds.com> ;
     admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
-    foaf:maker <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_stefanija_bogdanovska.rdf#me> ;
-    foaf:primaryTopic <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_stefanija_bogdanovska.rdf#me> .
+    foaf:maker <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_stefanija_bogdanovska.ttl#> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_stefanija_bogdanovska.ttl#me> .
 
 <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_stefanija_bogdanovska.rdf#me> a foaf:Person ;
     foaf:family_name "Bogdanovska" ;
     foaf:givenname "Stefanija" ;
     foaf:knows [ a foaf:Person ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_andrej_sekuloski.rdf#> ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_andrej_sekuloski.ttl#> ;
             foaf:mbox_sha1sum "03850557b6ddd9d720da98c018476cbdba49a8f6" ;
             foaf:name "Andrej Sekuloski" ],
         [ a foaf:Person ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_angela_meshkova.rdf#> ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf_angela_meshkova.ttl#> ;
             foaf:mbox_sha1sum "e4bfdd369dcab35016a9d5d2c926b942549918c2" ;
             foaf:name "Angela Meshkova" ],
         [ a foaf:Person ;
-            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf.rdf#> ;
+            rdfs:seeAlso <https://raw.githubusercontent.com/StamenchoBog/foafMe/main/foaf.ttl#> ;
             foaf:mbox_sha1sum "062e4dd3d764a66838c8fbc70b08a9f9c5f8b7a2" ;
             foaf:name "Stamencho Bogdanovski" ] ;
     foaf:mbox_sha1sum "599a2bd1942386a74f6ddf2ff5d918d3fc4e65e1" ;
     foaf:name "Stefanija Bogdanovska" ;
-    foaf:schoolHomepage <https://dbpedia.org/page/Ss._Cyril_and_Methodius_University_of_Skopje> ;
+    foaf:schoolHomepage <https://dbpedia.org/data/Ss._Cyril_and_Methodius_University_of_Skopje.ttl> ;
     foaf:title "Miss" .
