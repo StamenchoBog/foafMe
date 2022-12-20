@@ -21,9 +21,8 @@
 <foaf:Person>
 <foaf:name>Stamencho Bogdanovski</foaf:name>
 <foaf:mbox_sha1sum>062e4dd3d764a66838c8fbc70b08a9f9c5f8b7a2</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf.rdf#"/></foaf:Person></foaf:knows>
-<foaf:knows>
-<foaf:Person>
+<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf.rdf#"/>
+
 <foaf:name>Andrej Sekuloski</foaf:name>
 <foaf:mbox_sha1sum>03850557b6ddd9d720da98c018476cbdba49a8f6</foaf:mbox_sha1sum>
 <rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_andrej_sekuloski.rdf#"/></foaf:Person></foaf:knows>
@@ -31,5 +30,8 @@
 <foaf:Person>
 <foaf:name>Stefanija Bogdanovska</foaf:name>
 <foaf:mbox_sha1sum>722e75999cd53e40cd00ecf2a8200616fbb41723</foaf:mbox_sha1sum>
-<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_stefanija_bogdanovska.rdf#"/></foaf:Person></foaf:knows></foaf:Person>
+<rdfs:seeAlso rdf:resource="https://raw.githubusercontent.com/StamenchoBog/foafMe/main/rdf_xml/foaf_stefanija_bogdanovska.rdf#"/>
+</foaf:Person>
+</foaf:knows>
+</foaf:Person>
 </rdf:RDF>
